@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tasks-table th,
+.tasks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tasks-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.actions-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-button {
+    padding: 5px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm-button {
+    background-color: #388E3C;
+    color: white;
+}
+
+.reject-button {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.confirm-button {
+    background-color: #2E7D32;
+}
+
+.reject-button {
+    background-color: #C62828;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-icon {
+    font-size: 100px;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.user-details {
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    height: 40px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button {
+    background-color: #ff1493;
+}
+
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}

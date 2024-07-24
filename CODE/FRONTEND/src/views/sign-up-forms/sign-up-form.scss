@@ -1,0 +1,135 @@
+.signin-container {
+	display: flex;
+	height: 100vh;
+	background: linear-gradient(70deg, #fff4ae 0%, #ffcdd7 50%, #ffb2f4 100%);
+}
+
+.signin-logo {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin-logo img {
+	max-width: 250px;
+}
+
+.signin-form-container {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signin-form {
+	text-align: center;
+	width: 300px;
+	padding: 40px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 40px;
+	background: transparent;
+
+	h1 {
+		margin-bottom: 1px;
+		color: #000000;
+		font-family: Voltaire;
+	}
+
+	.welcome-back {
+		color: #000000;
+		font-family: Voltaire;
+		font-size: 1.4rem;
+		font-weight: normal;
+		margin-bottom: 50px;
+	}
+
+	.form-field {
+		margin-top: 20px;
+
+		select {
+			width: calc(100% + 1rem);
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 30px;
+			font-size: 1rem;
+			color: #6f6f6f;
+		}
+
+		select::placeholder {
+			color: #aaa;
+		}
+	}
+
+	.forgot-password {
+		margin-bottom: 30px;
+		text-align: right;
+
+		a {
+			color: #000000;
+			text-decoration: none;
+			font-size: 1rem;
+		}
+	}
+
+	button {
+		width: calc(100% - 1.5rem);
+		padding: 15px;
+		border: none;
+		border-radius: 25px;
+		background-color: #9c28b1;
+		color: white;
+		font-size: 1.5rem;
+		cursor: pointer;
+		transition: background-color 0.3s;
+
+		&:hover {
+			background-color: #7a1c8e; // Darken color on hover
+		}
+	}
+}
+
+.signin-footer .footer-logo {
+	max-width: 50px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.form-field-break {
+	margin-bottom: 20px;
+}
+
+.form-progress {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+	color: black;
+}
+
+.signin-form__select {
+	margin-top: 20px;
+
+	.category-list__select--wider {
+		border-radius: 30px;
+	}
+}
+
+.signin-form__error {
+	color: var(--col-error);
+	font-size: 1rem;
+	padding-left: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.login-link {
+	margin-bottom: 10px;
+
+	a {
+		color: #000000;
+		text-decoration: none;
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,62 @@
+@import './vars.scss';
+
+@mixin sm {
+  @media (min-width: #{$sm-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$md-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$lg-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$xl-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin max-width-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin circle($size, $radius) {
+  height: $size;
+  width: $size;
+  border-radius: $radius;
+}
+
+@mixin max-lines-ellipsis($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin square($size) {
+  height: $size;
+  width: $size;
+}

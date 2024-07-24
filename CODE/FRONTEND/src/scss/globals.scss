@@ -1,0 +1,91 @@
+@import './mixins.scss';
+
+html {
+  font-size: 62.5%; //1rem = 10px
+  line-height: 120%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-mullish);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  background-color: var(--col-ultra-light-gray);
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: var(--font-family-merriweather);
+  font-size: 3.2rem;
+  line-height: 1.4;
+  font-weight: 400;
+
+  @include md {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+}
+
+h2 {
+  font-family: var(--font-family-merriweather);
+  font-size: 2.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+  @include md {
+    font-size: 3.2rem;
+  }
+}
+
+h3 {
+  font-family: var(--font-family-merriweather);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+
+  @include md {
+    font-size: 2rem;
+  }
+}
+
+h4 {
+  font-family: var(--font-family-merriweather);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+  @include md {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-family: var(--font-family-mullish);
+  font-size: 1.4rem;
+  line-height: 1.7;
+  font-weight: 600;
+
+  @include md {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  @include lg {
+    font-size: 1.8rem;
+    line-height: 1.55;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

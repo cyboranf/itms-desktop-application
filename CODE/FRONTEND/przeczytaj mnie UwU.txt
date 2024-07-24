@@ -1,0 +1,2 @@
+odpala sie: npm run dev
+(jako admin odpalac) zeby zrobic builda: npm run build

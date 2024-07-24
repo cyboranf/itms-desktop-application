@@ -1,0 +1,120 @@
+.signin-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(70deg, #FFF4AE 0%, #FFCDD7 50%, #FFB2F4 100%);
+}
+
+.signin-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-logo img {
+    max-width: 250px;
+}
+
+.signin-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    background: transparent;
+
+    h1 {
+        margin-bottom: 1px;
+        color: #000000;
+        font-family: Voltaire;
+    }
+
+    .welcome-back {
+        color: #000000;
+        font-family: Voltaire;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    .input-container {
+        position: relative;
+
+        input {
+            width: calc(100% - 40px); // Adjust width to leave space for icon
+            padding: 12px;
+            border: 1px solid #CCC;
+            border-radius: 30px;
+            font-size: 1rem;
+            color: #6F6F6F;
+        }
+
+        input::placeholder {
+            color: #AAA;
+        }
+
+        .password-toggle-button {
+            background: none;
+            border: none;
+            position: absolute;
+            right: -37%;
+            top: 40%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #6F6F6F;
+            font-size: 1.2rem;
+        }
+    }
+
+    .forgot-password {
+        text-align: right;
+        margin-right: 15px;
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+    }
+
+    button {
+        width: calc(100% - 1.5rem);
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        background-color: #9C28B1;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+
+        &:hover {
+            background-color: #7a1c8e; // Darken color on hover
+        }
+    }
+}
+
+.signup-link {
+    margin-bottom: 5px;
+
+    a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+}
+
+.signin-footer .footer-logo {
+    max-width: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,11 @@
+@import './variables.scss';
+@import './globals.scss';
+@import './mixins.scss';
+.layout {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.App{
+    height: 100vh;
+}

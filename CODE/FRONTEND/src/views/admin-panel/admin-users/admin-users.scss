@@ -1,0 +1,74 @@
+@mixin horizontal-gradient($color1, $color2, $color3, $color4, $color5, $color6) {
+  background: linear-gradient(to right, $color1, $color2, $color3, $color4, $color5, $color6);
+}
+
+.layout-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.MuiDataGrid-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.footer {
+  height: 60px;
+  background-color: #0f78b0;
+  color: white;
+  padding: 10px 20px;
+}
+
+.MuiDataGrid-footerContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.MuiDataGrid-colCell {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.MuiDataGrid-cell {
+  font-size: 14px;
+}
+
+.button-gradient {
+  @include horizontal-gradient(#4ac4f3, #009bf3, #8961cb, #b33fc5, #e20bec, #d023d7);
+  color: black;
+  font-size: 14px;
+  font-weight: 580;
+  padding: 6px 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(43, 98, 168, 0.1);
+  text-align: center;
+  display: inline-block;
+  width: 220px;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}

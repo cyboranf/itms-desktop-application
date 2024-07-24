@@ -1,0 +1,21 @@
+.input-wrapper {
+	height: 50px;
+	width: 100%;
+
+	input {
+		width: calc(100% - 1.5rem);
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 30px;
+		font-size: 1rem;
+		color: #6f6f6f;
+	}
+
+	&__error {
+		color: var(--col-error);
+		font-size: 1rem;
+		padding-left: 10px;
+		text-align: left;
+		width: 100%;
+	}
+}

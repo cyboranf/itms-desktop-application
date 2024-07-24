@@ -1,0 +1,7 @@
+.example-component {
+	border: 1px solid var(--col-error-300);
+	&__sub {
+		background-color: var(--col-blue-dark);
+		color: var(--col-white);
+	}
+}

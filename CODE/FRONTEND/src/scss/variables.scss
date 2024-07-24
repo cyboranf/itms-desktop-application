@@ -1,0 +1,64 @@
+@import './vars';
+
+:root {
+	--col-error-300: #d01f1a;
+	--col-error: #af0000;
+	--col-red-100: #fd6584;
+	--col-yellow-100: #f3be00;
+	--col-yellow-200: #ffdb5c;
+	--col-orange-100: #f37500;
+	--col-orange-200: #ff6600;
+	--col-green-100: #00f370;
+	--col-green-200: #058e02;
+	--col-blue-100: #000af3;
+	--col-blue-dark: #000a2c;
+	--col-purple-100: #8800f3;
+	--col-purple-200: #7000ff;
+	--col-white: #fff;
+	--col-white-500: #fafafa;
+	--col-black: #000;
+	--col-light-black: #4f4f4f;
+	--col-light-gray: #bcbcbc;
+	--col-light-gray-100: #c4c4c4;
+	--col-ultra-light-gray: #fbfbfb;
+	--col-gray-border-light: #e4e8ee;
+	--col-gray-100: #f6f6f6;
+	--col-gray-200: #e5e5e5;
+	--col-gray-300: #ddd;
+	--col-gray-400: #888;
+	--col-gray-450: #000a2c;
+	--col-gray-400-transparent: #000a2c61;
+	--col-gray-500: #5e5e5e;
+	--col-gray-500-transparent: #66666633;
+	--col-gray-600: #333;
+	--col-gray-700: rgba(94, 94, 94, 1);
+	--col-gray-600-transparent: #000a2c8a;
+	--col-blue-100: #e3f2ff;
+	--col-blue-200: #83c3ff;
+	--col-blue-400: #007ef3;
+	--col-blue-500: #007ef3b5;
+	--col-blue-600: #4945ff;
+	--col-blue-700: #0035f1;
+	--col-blue-700-light: #0035f10f;
+	--col-blue-700-opaque: #0035f11f;
+	--col-blue-700-transparent: #0035f161;
+	--col-blue-700-hover: #0035f13d;
+	--col-blue-800: #3251bf;
+
+  //fonts
+  --font-family-merriweather: 'Merriweather', serif;
+  --font-family-mullish: 'Mulish', sans-serif;
+  --font-size-min: 1.1rem;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.4rem;
+  --font-size-base: 1.6rem;
+  --font-size-big: 1.8rem;
+  --font-size-large: 2rem;
+  --font-size-xlarge: 2.4rem;
+  --font-size-huge: 3.2rem;
+  --font-weight-lighter: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
