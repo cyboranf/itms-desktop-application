@@ -5,16 +5,26 @@
 
 # INF_ROZOWI_2024
 
+### Click the icons below to explore my repositories for the backend, frontend, and PDF library:
+
+<a href="https://github.com/cyboranf/itms-frontend">
+  <img src="/README/front-icon.png" alt="Frontend Icon" width="200" height="200">
+</a>
+<a href="https://github.com/cyboranf/itms-backend">
+  <img src="/README/back-icon.png" alt="Backend Icon" width="200" height="200">
+</a>
+<a href="https://github.com/cyboranf/itms-pdf-library">
+  <img src="/README/pdf-icon.png" alt="PDF Library Icon" width="200" height="200">
+</a>
+
 ## Cloning the Repository
 
-To clone this repository and itms submodules which are included in <b>'CODE'</b> folder, follow these steps:
+To clone this repository, follow these steps:
 
 1. Clone the main repository:
    ```bash
-   git clone https://github.com/PZ-2024/INF_ROZOWI_2024
-   cd INF_ROZOWI_2024
-   git submodule update --init --recursive
-
+   git clone https://github.com/cyboranf/itms-desktop-application
+   cd itms-desktop-application
 
 ## Folder Structure
 
