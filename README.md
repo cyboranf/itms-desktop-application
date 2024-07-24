@@ -1,21 +1,25 @@
 <p align="center">
   <img src="/README/itms-logo.png" alt="ITMS logo" />
-</p>
+
 
 
 # INF_ROZOWI_2024
 
+
 ### Click the icons below to explore my repositories for the backend, frontend, and PDF library:
 
-<a href="https://github.com/cyboranf/itms-frontend">
-  <img src="/README/front-icon.png" alt="Frontend Icon" width="200" height="200">
-</a>
-<a href="https://github.com/cyboranf/itms-backend">
-  <img src="/README/back-icon.png" alt="Backend Icon" width="200" height="200">
-</a>
-<a href="https://github.com/cyboranf/itms-pdf-library">
-  <img src="/README/pdf-icon.png" alt="PDF Library Icon" width="200" height="200">
-</a>
+<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+  <a href="https://github.com/cyboranf/itms-frontend">
+    <img src="/README/front-icon.png" alt="Frontend Icon" width="200" height="200">
+  </a>
+  <a href="https://github.com/cyboranf/itms-backend">
+    <img src="/README/back-icon.png" alt="Backend Icon" width="200" height="200">
+  </a>
+  <a href="https://github.com/cyboranf/itms-pdf-library">
+    <img src="/README/pdf-icon.png" alt="PDF Library Icon" width="200" height="200">
+  </a>
+</div>
+</p>
 
 ## Cloning the Repository
 
